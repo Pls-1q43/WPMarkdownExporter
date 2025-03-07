@@ -3,7 +3,7 @@
  * Plugin Name: WP Markdown Exporter
  * Plugin URI: https://github.com/Pls-1q43/WPMarkdownExporter
  * Description: Export WordPress posts as Markdown files with images
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Pls
  * Author URI: https://1q43.blog
  * License: GPL-2.0+
