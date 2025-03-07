@@ -20,6 +20,8 @@ WP Markdown Exporter is a powerful tool that allows you to export your WordPress
 * Edit content offline in Markdown format
 * Archive posts in a format that's not dependent on WordPress
 
+Author blog: https://1q43.blog
+
 **Key Features:**
 
 * Export posts as clean Markdown files
