@@ -1,0 +1,189 @@
+/* 主容器样式 */
+.wrap {
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+/* 卡片样式 */
+.card {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+/* 表单样式 */
+.form-table {
+    margin-top: 20px;
+}
+
+.form-table th {
+    width: 200px;
+    padding: 20px 10px 20px 0;
+}
+
+.form-table td {
+    padding: 20px 10px;
+}
+
+/* 多选框样式 */
+select[multiple] {
+    min-height: 150px;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* 日期输入框样式 */
+input[type="date"] {
+    width: 200px;
+}
+
+/* 提交按钮容器 */
+.submit-container {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+/* 加载动画 */
+.spinner {
+    float: none;
+    margin: 0 10px;
+    visibility: hidden;
+}
+
+.spinner.is-active {
+    visibility: visible;
+}
+
+/* 导出结果区域 */
+#export-result {
+    display: none;
+    margin-top: 20px;
+}
+
+.result-message {
+    margin: 15px 0;
+    padding: 10px 15px;
+    border-left: 4px solid #46b450;
+    background: #fff;
+}
+
+.result-message.error {
+    border-left-color: #dc3232;
+}
+
+/* 下载按钮样式 */
+.download-links {
+    margin-top: 15px;
+}
+
+.download-links .button {
+    margin-right: 10px;
+}
+
+/* 描述文本样式 */
+.description {
+    color: #666;
+    font-style: italic;
+    margin: 5px 0 0;
+}
+
+/* 响应式布局 */
+@media screen and (max-width: 782px) {
+    .form-table th {
+        width: 100%;
+        display: block;
+        padding-bottom: 0;
+    }
+    
+    .form-table td {
+        display: block;
+        padding-top: 10px;
+    }
+    
+    input[type="date"] {
+        width: 100%;
+        max-width: 200px;
+    }
+}
+
+/* 错误提示样式 */
+.notice {
+    margin: 15px 0;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+.notice-error {
+    border-left: 4px solid #dc3232;
+    background: #fbeaea;
+}
+
+.notice-success {
+    border-left: 4px solid #46b450;
+    background: #ecf7ed;
+}
+
+/* 禁用状态样式 */
+.button:disabled,
+.button[disabled] {
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+.wrap .card {
+    max-width: 800px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.form-table select {
+    min-width: 300px;
+}
+
+.spinner {
+    float: none;
+    margin-left: 10px;
+}
+
+#export-result {
+    margin-top: 20px;
+}
+
+.download-links {
+    margin-top: 15px;
+}
+
+.download-links .button {
+    margin-right: 10px;
+}
+
+/* Select2 自定义样式 */
+.select2-container--default .select2-selection--multiple {
+    border-color: #8c8f94;
+}
+
+/* 为清除按钮添加样式 */
+.export-info {
+    margin-top: 30px;
+    padding: 15px;
+    background: #f9f9f9;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+}
+
+.clear-spinner {
+    float: none;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+#clear-result.notice-success {
+    border-left-color: #46b450;
+}
+
+#clear-result.notice-error {
+    border-left-color: #dc3232;
+}
